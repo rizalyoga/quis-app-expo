@@ -26,7 +26,7 @@ const ListCategoryScreen = ({ navigation }) => {
             return (
               <TouchableOpacity
                 style={{ elevation: 6 }}
-                className="my-2 mr-2 p-4 flex-[0.5] mx min-h-[80px] bg-indigo-500 rounded-md justify-center items-center"
+                className="my-2 mr-2 p-4 flex-[0.5] mx min-h-[80px] bg-indigo-500123 rounded-md justify-center items-center"
                 onPress={() =>
                   navigation.navigate("playground", { category: item })
                 }
